@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168DA2751F4B399A007C6408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168DA2741F4B399A007C6408 /* AppDelegate.swift */; };
+		168DA2771F4B399A007C6408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168DA2761F4B399A007C6408 /* ViewController.swift */; };
+		168DA27A1F4B399A007C6408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168DA2781F4B399A007C6408 /* Main.storyboard */; };
+		168DA27D1F4B399A007C6408 /* FindMyLyrics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 168DA27B1F4B399A007C6408 /* FindMyLyrics.xcdatamodeld */; };
+		168DA27F1F4B399A007C6408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168DA27E1F4B399A007C6408 /* Assets.xcassets */; };
+		168DA2821F4B399A007C6408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168DA2801F4B399A007C6408 /* LaunchScreen.storyboard */; };
+		168DA28D1F4B399B007C6408 /* FindMyLyricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168DA28C1F4B399B007C6408 /* FindMyLyricsTests.swift */; };
+		168DA2981F4B399B007C6408 /* FindMyLyricsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168DA2971F4B399B007C6408 /* FindMyLyricsUITests.swift */; };
+		5BC30A75F4C8F281DDEE45C4 /* Pods_FindMyLyricsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574A7E0895F9C08BCBB58DC9 /* Pods_FindMyLyricsTests.framework */; };
+		C0FEC987CF343840899CD90A /* Pods_FindMyLyricsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B19CD4C0D10797852B7D65 /* Pods_FindMyLyricsUITests.framework */; };
+		DDFCF0BF97A9ABD2C8056A4C /* Pods_FindMyLyrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E4111B594FD7A84EBF5702 /* Pods_FindMyLyrics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		168DA2891F4B399B007C6408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168DA2691F4B399A007C6408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168DA2701F4B399A007C6408;
+			remoteInfo = FindMyLyrics;
+		};
+		168DA2941F4B399B007C6408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168DA2691F4B399A007C6408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168DA2701F4B399A007C6408;
+			remoteInfo = FindMyLyrics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		168DA2711F4B399A007C6408 /* FindMyLyrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyLyrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		168DA2741F4B399A007C6408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		168DA2761F4B399A007C6408 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		168DA2791F4B399A007C6408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		168DA27C1F4B399A007C6408 /* FindMyLyrics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindMyLyrics.xcdatamodel; sourceTree = "<group>"; };
+		168DA27E1F4B399A007C6408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168DA2811F4B399A007C6408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		168DA2831F4B399A007C6408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168DA2881F4B399B007C6408 /* FindMyLyricsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyLyricsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168DA28C1F4B399B007C6408 /* FindMyLyricsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyLyricsTests.swift; sourceTree = "<group>"; };
+		168DA28E1F4B399B007C6408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168DA2931F4B399B007C6408 /* FindMyLyricsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyLyricsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168DA2971F4B399B007C6408 /* FindMyLyricsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyLyricsUITests.swift; sourceTree = "<group>"; };
+		168DA2991F4B399B007C6408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D7E32EA166D3284E94DCA40 /* Pods-FindMyLyricsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyLyricsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyLyricsUITests/Pods-FindMyLyricsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		574A7E0895F9C08BCBB58DC9 /* Pods_FindMyLyricsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyLyricsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E4111B594FD7A84EBF5702 /* Pods_FindMyLyrics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyLyrics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB199E0FE3C8F5F2D0B2514 /* Pods-FindMyLyrics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyLyrics.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyLyrics/Pods-FindMyLyrics.release.xcconfig"; sourceTree = "<group>"; };
+		9EEBC2FC2F709C1918518754 /* Pods-FindMyLyricsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyLyricsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyLyricsTests/Pods-FindMyLyricsTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4D30736512B6282D3FE06A9 /* Pods-FindMyLyrics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyLyrics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyLyrics/Pods-FindMyLyrics.debug.xcconfig"; sourceTree = "<group>"; };
+		AAF201556EC654FB86369294 /* Pods-FindMyLyricsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyLyricsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyLyricsUITests/Pods-FindMyLyricsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1B19CD4C0D10797852B7D65 /* Pods_FindMyLyricsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyLyricsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD239246A0F37EF0114F5BB4 /* Pods-FindMyLyricsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyLyricsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyLyricsTests/Pods-FindMyLyricsTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168DA26E1F4B399A007C6408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFCF0BF97A9ABD2C8056A4C /* Pods_FindMyLyrics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168DA2851F4B399B007C6408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC30A75F4C8F281DDEE45C4 /* Pods_FindMyLyricsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168DA2901F4B399B007C6408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FEC987CF343840899CD90A /* Pods_FindMyLyricsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A2DF9DC7B2CD51915B850B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4D30736512B6282D3FE06A9 /* Pods-FindMyLyrics.debug.xcconfig */,
+				8EB199E0FE3C8F5F2D0B2514 /* Pods-FindMyLyrics.release.xcconfig */,
+				CD239246A0F37EF0114F5BB4 /* Pods-FindMyLyricsTests.debug.xcconfig */,
+				9EEBC2FC2F709C1918518754 /* Pods-FindMyLyricsTests.release.xcconfig */,
+				1D7E32EA166D3284E94DCA40 /* Pods-FindMyLyricsUITests.debug.xcconfig */,
+				AAF201556EC654FB86369294 /* Pods-FindMyLyricsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		168DA2681F4B399A007C6408 = {
+			isa = PBXGroup;
+			children = (
+				168DA2731F4B399A007C6408 /* FindMyLyrics */,
+				168DA28B1F4B399B007C6408 /* FindMyLyricsTests */,
+				168DA2961F4B399B007C6408 /* FindMyLyricsUITests */,
+				168DA2721F4B399A007C6408 /* Products */,
+				11A2DF9DC7B2CD51915B850B /* Pods */,
+				1A9F1E4A8F8EE839DF038460 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		168DA2721F4B399A007C6408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168DA2711F4B399A007C6408 /* FindMyLyrics.app */,
+				168DA2881F4B399B007C6408 /* FindMyLyricsTests.xctest */,
+				168DA2931F4B399B007C6408 /* FindMyLyricsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168DA2731F4B399A007C6408 /* FindMyLyrics */ = {
+			isa = PBXGroup;
+			children = (
+				168DA2741F4B399A007C6408 /* AppDelegate.swift */,
+				168DA2761F4B399A007C6408 /* ViewController.swift */,
+				168DA2781F4B399A007C6408 /* Main.storyboard */,
+				168DA27E1F4B399A007C6408 /* Assets.xcassets */,
+				168DA2801F4B399A007C6408 /* LaunchScreen.storyboard */,
+				168DA2831F4B399A007C6408 /* Info.plist */,
+				168DA27B1F4B399A007C6408 /* FindMyLyrics.xcdatamodeld */,
+			);
+			path = FindMyLyrics;
+			sourceTree = "<group>";
+		};
+		168DA28B1F4B399B007C6408 /* FindMyLyricsTests */ = {
+			isa = PBXGroup;
+			children = (
+				168DA28C1F4B399B007C6408 /* FindMyLyricsTests.swift */,
+				168DA28E1F4B399B007C6408 /* Info.plist */,
+			);
+			path = FindMyLyricsTests;
+			sourceTree = "<group>";
+		};
+		168DA2961F4B399B007C6408 /* FindMyLyricsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				168DA2971F4B399B007C6408 /* FindMyLyricsUITests.swift */,
+				168DA2991F4B399B007C6408 /* Info.plist */,
+			);
+			path = FindMyLyricsUITests;
+			sourceTree = "<group>";
+		};
+		1A9F1E4A8F8EE839DF038460 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85E4111B594FD7A84EBF5702 /* Pods_FindMyLyrics.framework */,
+				574A7E0895F9C08BCBB58DC9 /* Pods_FindMyLyricsTests.framework */,
+				B1B19CD4C0D10797852B7D65 /* Pods_FindMyLyricsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168DA2701F4B399A007C6408 /* FindMyLyrics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168DA29C1F4B399B007C6408 /* Build configuration list for PBXNativeTarget "FindMyLyrics" */;
+			buildPhases = (
+				E10BE4BEE6BE923DB55756A8 /* [CP] Check Pods Manifest.lock */,
+				168DA26D1F4B399A007C6408 /* Sources */,
+				168DA26E1F4B399A007C6408 /* Frameworks */,
+				168DA26F1F4B399A007C6408 /* Resources */,
+				BD71CB30BF0CEE8243F71AAA /* [CP] Embed Pods Frameworks */,
+				D71F2149FBB2026143877E68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyLyrics;
+			productName = FindMyLyrics;
+			productReference = 168DA2711F4B399A007C6408 /* FindMyLyrics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		168DA2871F4B399B007C6408 /* FindMyLyricsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168DA29F1F4B399B007C6408 /* Build configuration list for PBXNativeTarget "FindMyLyricsTests" */;
+			buildPhases = (
+				364D2842911E51ADA5FDD7B9 /* [CP] Check Pods Manifest.lock */,
+				168DA2841F4B399B007C6408 /* Sources */,
+				168DA2851F4B399B007C6408 /* Frameworks */,
+				168DA2861F4B399B007C6408 /* Resources */,
+				BBED94521F2D92EC7A16B145 /* [CP] Embed Pods Frameworks */,
+				6C5F986AE803FD96CCB8C79D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168DA28A1F4B399B007C6408 /* PBXTargetDependency */,
+			);
+			name = FindMyLyricsTests;
+			productName = FindMyLyricsTests;
+			productReference = 168DA2881F4B399B007C6408 /* FindMyLyricsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		168DA2921F4B399B007C6408 /* FindMyLyricsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168DA2A21F4B399B007C6408 /* Build configuration list for PBXNativeTarget "FindMyLyricsUITests" */;
+			buildPhases = (
+				A92991592037154BBC193674 /* [CP] Check Pods Manifest.lock */,
+				168DA28F1F4B399B007C6408 /* Sources */,
+				168DA2901F4B399B007C6408 /* Frameworks */,
+				168DA2911F4B399B007C6408 /* Resources */,
+				8F6813D81924C4D8032AD229 /* [CP] Embed Pods Frameworks */,
+				7D9D03DD4B77967041A14B8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168DA2951F4B399B007C6408 /* PBXTargetDependency */,
+			);
+			name = FindMyLyricsUITests;
+			productName = FindMyLyricsUITests;
+			productReference = 168DA2931F4B399B007C6408 /* FindMyLyricsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		168DA2691F4B399A007C6408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Fedotov Igor";
+				TargetAttributes = {
+					168DA2701F4B399A007C6408 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 476DPCGZ25;
+						ProvisioningStyle = Automatic;
+					};
+					168DA2871F4B399B007C6408 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 476DPCGZ25;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 168DA2701F4B399A007C6408;
+					};
+					168DA2921F4B399B007C6408 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 476DPCGZ25;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 168DA2701F4B399A007C6408;
+					};
+				};
+			};
+			buildConfigurationList = 168DA26C1F4B399A007C6408 /* Build configuration list for PBXProject "FindMyLyrics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 168DA2681F4B399A007C6408;
+			productRefGroup = 168DA2721F4B399A007C6408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168DA2701F4B399A007C6408 /* FindMyLyrics */,
+				168DA2871F4B399B007C6408 /* FindMyLyricsTests */,
+				168DA2921F4B399B007C6408 /* FindMyLyricsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168DA26F1F4B399A007C6408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168DA2821F4B399A007C6408 /* LaunchScreen.storyboard in Resources */,
+				168DA27F1F4B399A007C6408 /* Assets.xcassets in Resources */,
+				168DA27A1F4B399A007C6408 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168DA2861F4B399B007C6408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168DA2911F4B399B007C6408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		364D2842911E51ADA5FDD7B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C5F986AE803FD96CCB8C79D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyLyricsTests/Pods-FindMyLyricsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D9D03DD4B77967041A14B8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyLyricsUITests/Pods-FindMyLyricsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F6813D81924C4D8032AD229 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyLyricsUITests/Pods-FindMyLyricsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A92991592037154BBC193674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBED94521F2D92EC7A16B145 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyLyricsTests/Pods-FindMyLyricsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD71CB30BF0CEE8243F71AAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyLyrics/Pods-FindMyLyrics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D71F2149FBB2026143877E68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyLyrics/Pods-FindMyLyrics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E10BE4BEE6BE923DB55756A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168DA26D1F4B399A007C6408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168DA2771F4B399A007C6408 /* ViewController.swift in Sources */,
+				168DA2751F4B399A007C6408 /* AppDelegate.swift in Sources */,
+				168DA27D1F4B399A007C6408 /* FindMyLyrics.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168DA2841F4B399B007C6408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168DA28D1F4B399B007C6408 /* FindMyLyricsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168DA28F1F4B399B007C6408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168DA2981F4B399B007C6408 /* FindMyLyricsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		168DA28A1F4B399B007C6408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168DA2701F4B399A007C6408 /* FindMyLyrics */;
+			targetProxy = 168DA2891F4B399B007C6408 /* PBXContainerItemProxy */;
+		};
+		168DA2951F4B399B007C6408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168DA2701F4B399A007C6408 /* FindMyLyrics */;
+			targetProxy = 168DA2941F4B399B007C6408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		168DA2781F4B399A007C6408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168DA2791F4B399A007C6408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		168DA2801F4B399A007C6408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168DA2811F4B399A007C6408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		168DA29A1F4B399B007C6408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		168DA29B1F4B399B007C6408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		168DA29D1F4B399B007C6408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D30736512B6282D3FE06A9 /* Pods-FindMyLyrics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 476DPCGZ25;
+				INFOPLIST_FILE = FindMyLyrics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedotov.igor.FindMyLyrics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		168DA29E1F4B399B007C6408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB199E0FE3C8F5F2D0B2514 /* Pods-FindMyLyrics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 476DPCGZ25;
+				INFOPLIST_FILE = FindMyLyrics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedotov.igor.FindMyLyrics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		168DA2A01F4B399B007C6408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD239246A0F37EF0114F5BB4 /* Pods-FindMyLyricsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 476DPCGZ25;
+				INFOPLIST_FILE = FindMyLyricsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedotov.igor.FindMyLyricsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyLyrics.app/FindMyLyrics";
+			};
+			name = Debug;
+		};
+		168DA2A11F4B399B007C6408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EEBC2FC2F709C1918518754 /* Pods-FindMyLyricsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 476DPCGZ25;
+				INFOPLIST_FILE = FindMyLyricsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedotov.igor.FindMyLyricsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyLyrics.app/FindMyLyrics";
+			};
+			name = Release;
+		};
+		168DA2A31F4B399B007C6408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7E32EA166D3284E94DCA40 /* Pods-FindMyLyricsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 476DPCGZ25;
+				INFOPLIST_FILE = FindMyLyricsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedotov.igor.FindMyLyricsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FindMyLyrics;
+			};
+			name = Debug;
+		};
+		168DA2A41F4B399B007C6408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF201556EC654FB86369294 /* Pods-FindMyLyricsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 476DPCGZ25;
+				INFOPLIST_FILE = FindMyLyricsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedotov.igor.FindMyLyricsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FindMyLyrics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168DA26C1F4B399A007C6408 /* Build configuration list for PBXProject "FindMyLyrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168DA29A1F4B399B007C6408 /* Debug */,
+				168DA29B1F4B399B007C6408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168DA29C1F4B399B007C6408 /* Build configuration list for PBXNativeTarget "FindMyLyrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168DA29D1F4B399B007C6408 /* Debug */,
+				168DA29E1F4B399B007C6408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		168DA29F1F4B399B007C6408 /* Build configuration list for PBXNativeTarget "FindMyLyricsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168DA2A01F4B399B007C6408 /* Debug */,
+				168DA2A11F4B399B007C6408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		168DA2A21F4B399B007C6408 /* Build configuration list for PBXNativeTarget "FindMyLyricsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168DA2A31F4B399B007C6408 /* Debug */,
+				168DA2A41F4B399B007C6408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		168DA27B1F4B399A007C6408 /* FindMyLyrics.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				168DA27C1F4B399A007C6408 /* FindMyLyrics.xcdatamodel */,
+			);
+			currentVersion = 168DA27C1F4B399A007C6408 /* FindMyLyrics.xcdatamodel */;
+			path = FindMyLyrics.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 168DA2691F4B399A007C6408 /* Project object */;
+}
