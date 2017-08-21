@@ -5,7 +5,7 @@
 //  Created by Igor on 21/08/2017.
 //  Copyright © 2017 Fedotov Igor. All rights reserved.
 //
-"b'eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjU3SkVZWUJNRkwifQ.eyJpc3MiOiI0NzZEUENHWjI1IiwiaWF0IjoxNTAzMzMwNzU5LCJleHAiOjE1MDMzNzM5NTl9.TI949xZ1tLFl0CPwh2a0fV_xTnAC9E5iroKlhJVI6sd9bObGVfU0fR5mGpfBfLa8sU8WmbuJsD1-ojMTZjwWFg'"
+
 import UIKit
 import CoreData
 
@@ -17,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
-    return true
+    
+      return true
   }
 
   func applicationWillResignActive(_ application: UIApplication) {

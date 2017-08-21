@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>FindMyLyricsActionExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>168DA2921F4B399B007C6408</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>168F44811F4B3B42001BE216</key>
 		<dict>
 			<key>primary</key>
 			<true/>

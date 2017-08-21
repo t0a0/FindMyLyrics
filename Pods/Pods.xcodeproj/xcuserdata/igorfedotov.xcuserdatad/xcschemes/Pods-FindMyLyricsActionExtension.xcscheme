@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7595DE026DFFE7F16BB00BE7272573F0"
-               BuildableName = "Pods_FindMyLyricsTests.framework"
-               BlueprintName = "Pods-FindMyLyricsTests"
+               BlueprintIdentifier = "96ECE548F199D94954D967E59BB4E8B3"
+               BuildableName = "Pods_FindMyLyricsActionExtension.framework"
+               BlueprintName = "Pods-FindMyLyricsActionExtension"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7595DE026DFFE7F16BB00BE7272573F0"
-            BuildableName = "Pods_FindMyLyricsTests.framework"
-            BlueprintName = "Pods-FindMyLyricsTests"
+            BlueprintIdentifier = "96ECE548F199D94954D967E59BB4E8B3"
+            BuildableName = "Pods_FindMyLyricsActionExtension.framework"
+            BlueprintName = "Pods-FindMyLyricsActionExtension"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

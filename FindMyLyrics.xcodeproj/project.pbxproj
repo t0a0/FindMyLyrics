@@ -15,6 +15,14 @@
 		168DA2821F4B399A007C6408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168DA2801F4B399A007C6408 /* LaunchScreen.storyboard */; };
 		168DA28D1F4B399B007C6408 /* FindMyLyricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168DA28C1F4B399B007C6408 /* FindMyLyricsTests.swift */; };
 		168DA2981F4B399B007C6408 /* FindMyLyricsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168DA2971F4B399B007C6408 /* FindMyLyricsUITests.swift */; };
+		168F44851F4B3B42001BE216 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168F44841F4B3B42001BE216 /* ActionViewController.swift */; };
+		168F44881F4B3B42001BE216 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168F44861F4B3B42001BE216 /* MainInterface.storyboard */; };
+		168F448C1F4B3B42001BE216 /* FindMyLyricsActionExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 168F44821F4B3B42001BE216 /* FindMyLyricsActionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		168F44941F4B3BAE001BE216 /* AppleMusicAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168F44921F4B3BAE001BE216 /* AppleMusicAPIHandler.swift */; };
+		168F44951F4B3BAE001BE216 /* MusixMatchAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168F44931F4B3BAE001BE216 /* MusixMatchAPIHandler.swift */; };
+		168F449A1F4B54E4001BE216 /* AppleMusicAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168F44921F4B3BAE001BE216 /* AppleMusicAPIHandler.swift */; };
+		168F449B1F4B54E4001BE216 /* MusixMatchAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168F44931F4B3BAE001BE216 /* MusixMatchAPIHandler.swift */; };
+		193C4BD9DE6386FD7C98437B /* Pods_FindMyLyricsActionExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53045D71B6584B032DE676E7 /* Pods_FindMyLyricsActionExtension.framework */; };
 		5BC30A75F4C8F281DDEE45C4 /* Pods_FindMyLyricsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574A7E0895F9C08BCBB58DC9 /* Pods_FindMyLyricsTests.framework */; };
 		C0FEC987CF343840899CD90A /* Pods_FindMyLyricsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B19CD4C0D10797852B7D65 /* Pods_FindMyLyricsUITests.framework */; };
 		DDFCF0BF97A9ABD2C8056A4C /* Pods_FindMyLyrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E4111B594FD7A84EBF5702 /* Pods_FindMyLyrics.framework */; };
@@ -35,7 +43,28 @@
 			remoteGlobalIDString = 168DA2701F4B399A007C6408;
 			remoteInfo = FindMyLyrics;
 		};
+		168F448A1F4B3B42001BE216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168DA2691F4B399A007C6408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168F44811F4B3B42001BE216;
+			remoteInfo = FindMyLyricsActionExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		168F44901F4B3B42001BE216 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				168F448C1F4B3B42001BE216 /* FindMyLyricsActionExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		168DA2711F4B399A007C6408 /* FindMyLyrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyLyrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,8 +81,17 @@
 		168DA2931F4B399B007C6408 /* FindMyLyricsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyLyricsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		168DA2971F4B399B007C6408 /* FindMyLyricsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyLyricsUITests.swift; sourceTree = "<group>"; };
 		168DA2991F4B399B007C6408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168F44821F4B3B42001BE216 /* FindMyLyricsActionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FindMyLyricsActionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		168F44841F4B3B42001BE216 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		168F44871F4B3B42001BE216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		168F44891F4B3B42001BE216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168F44921F4B3BAE001BE216 /* AppleMusicAPIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMusicAPIHandler.swift; sourceTree = "<group>"; };
+		168F44931F4B3BAE001BE216 /* MusixMatchAPIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusixMatchAPIHandler.swift; sourceTree = "<group>"; };
 		1D7E32EA166D3284E94DCA40 /* Pods-FindMyLyricsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyLyricsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyLyricsUITests/Pods-FindMyLyricsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B59547B09A106AF7F6DF2C8 /* Pods-FindMyLyricsActionExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyLyricsActionExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyLyricsActionExtension/Pods-FindMyLyricsActionExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		53045D71B6584B032DE676E7 /* Pods_FindMyLyricsActionExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyLyricsActionExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		574A7E0895F9C08BCBB58DC9 /* Pods_FindMyLyricsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyLyricsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2B5ACD57269813BBD99A6A /* Pods-FindMyLyricsActionExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyLyricsActionExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyLyricsActionExtension/Pods-FindMyLyricsActionExtension.release.xcconfig"; sourceTree = "<group>"; };
 		85E4111B594FD7A84EBF5702 /* Pods_FindMyLyrics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyLyrics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB199E0FE3C8F5F2D0B2514 /* Pods-FindMyLyrics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyLyrics.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyLyrics/Pods-FindMyLyrics.release.xcconfig"; sourceTree = "<group>"; };
 		9EEBC2FC2F709C1918518754 /* Pods-FindMyLyricsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyLyricsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyLyricsTests/Pods-FindMyLyricsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +126,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		168F447F1F4B3B42001BE216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193C4BD9DE6386FD7C98437B /* Pods_FindMyLyricsActionExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,6 +146,8 @@
 				9EEBC2FC2F709C1918518754 /* Pods-FindMyLyricsTests.release.xcconfig */,
 				1D7E32EA166D3284E94DCA40 /* Pods-FindMyLyricsUITests.debug.xcconfig */,
 				AAF201556EC654FB86369294 /* Pods-FindMyLyricsUITests.release.xcconfig */,
+				2B59547B09A106AF7F6DF2C8 /* Pods-FindMyLyricsActionExtension.debug.xcconfig */,
+				7A2B5ACD57269813BBD99A6A /* Pods-FindMyLyricsActionExtension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -110,6 +158,7 @@
 				168DA2731F4B399A007C6408 /* FindMyLyrics */,
 				168DA28B1F4B399B007C6408 /* FindMyLyricsTests */,
 				168DA2961F4B399B007C6408 /* FindMyLyricsUITests */,
+				168F44831F4B3B42001BE216 /* FindMyLyricsActionExtension */,
 				168DA2721F4B399A007C6408 /* Products */,
 				11A2DF9DC7B2CD51915B850B /* Pods */,
 				1A9F1E4A8F8EE839DF038460 /* Frameworks */,
@@ -122,6 +171,7 @@
 				168DA2711F4B399A007C6408 /* FindMyLyrics.app */,
 				168DA2881F4B399B007C6408 /* FindMyLyricsTests.xctest */,
 				168DA2931F4B399B007C6408 /* FindMyLyricsUITests.xctest */,
+				168F44821F4B3B42001BE216 /* FindMyLyricsActionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +179,7 @@
 		168DA2731F4B399A007C6408 /* FindMyLyrics */ = {
 			isa = PBXGroup;
 			children = (
+				168F44911F4B3BAE001BE216 /* APIHandlers */,
 				168DA2741F4B399A007C6408 /* AppDelegate.swift */,
 				168DA2761F4B399A007C6408 /* ViewController.swift */,
 				168DA2781F4B399A007C6408 /* Main.storyboard */,
@@ -158,12 +209,32 @@
 			path = FindMyLyricsUITests;
 			sourceTree = "<group>";
 		};
+		168F44831F4B3B42001BE216 /* FindMyLyricsActionExtension */ = {
+			isa = PBXGroup;
+			children = (
+				168F44841F4B3B42001BE216 /* ActionViewController.swift */,
+				168F44861F4B3B42001BE216 /* MainInterface.storyboard */,
+				168F44891F4B3B42001BE216 /* Info.plist */,
+			);
+			path = FindMyLyricsActionExtension;
+			sourceTree = "<group>";
+		};
+		168F44911F4B3BAE001BE216 /* APIHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				168F44921F4B3BAE001BE216 /* AppleMusicAPIHandler.swift */,
+				168F44931F4B3BAE001BE216 /* MusixMatchAPIHandler.swift */,
+			);
+			path = APIHandlers;
+			sourceTree = "<group>";
+		};
 		1A9F1E4A8F8EE839DF038460 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				85E4111B594FD7A84EBF5702 /* Pods_FindMyLyrics.framework */,
 				574A7E0895F9C08BCBB58DC9 /* Pods_FindMyLyricsTests.framework */,
 				B1B19CD4C0D10797852B7D65 /* Pods_FindMyLyricsUITests.framework */,
+				53045D71B6584B032DE676E7 /* Pods_FindMyLyricsActionExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,10 +252,12 @@
 				168DA26F1F4B399A007C6408 /* Resources */,
 				BD71CB30BF0CEE8243F71AAA /* [CP] Embed Pods Frameworks */,
 				D71F2149FBB2026143877E68 /* [CP] Copy Pods Resources */,
+				168F44901F4B3B42001BE216 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				168F448B1F4B3B42001BE216 /* PBXTargetDependency */,
 			);
 			name = FindMyLyrics;
 			productName = FindMyLyrics;
@@ -233,6 +306,25 @@
 			productReference = 168DA2931F4B399B007C6408 /* FindMyLyricsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		168F44811F4B3B42001BE216 /* FindMyLyricsActionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168F448F1F4B3B42001BE216 /* Build configuration list for PBXNativeTarget "FindMyLyricsActionExtension" */;
+			buildPhases = (
+				38F83E3963D66D22623E6D8F /* [CP] Check Pods Manifest.lock */,
+				168F447E1F4B3B42001BE216 /* Sources */,
+				168F447F1F4B3B42001BE216 /* Frameworks */,
+				168F44801F4B3B42001BE216 /* Resources */,
+				819CA01F479EEBECA0FB79EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyLyricsActionExtension;
+			productName = FindMyLyricsActionExtension;
+			productReference = 168F44821F4B3B42001BE216 /* FindMyLyricsActionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -260,6 +352,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 168DA2701F4B399A007C6408;
 					};
+					168F44811F4B3B42001BE216 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 476DPCGZ25;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 168DA26C1F4B399A007C6408 /* Build configuration list for PBXProject "FindMyLyrics" */;
@@ -278,6 +375,7 @@
 				168DA2701F4B399A007C6408 /* FindMyLyrics */,
 				168DA2871F4B399B007C6408 /* FindMyLyricsTests */,
 				168DA2921F4B399B007C6408 /* FindMyLyricsUITests */,
+				168F44811F4B3B42001BE216 /* FindMyLyricsActionExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -307,10 +405,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		168F44801F4B3B42001BE216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168F44881F4B3B42001BE216 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		364D2842911E51ADA5FDD7B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		38F83E3963D66D22623E6D8F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,6 +474,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyLyricsUITests/Pods-FindMyLyricsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		819CA01F479EEBECA0FB79EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyLyricsActionExtension/Pods-FindMyLyricsActionExtension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8F6813D81924C4D8032AD229 /* [CP] Embed Pods Frameworks */ = {
@@ -452,8 +588,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				168F44941F4B3BAE001BE216 /* AppleMusicAPIHandler.swift in Sources */,
 				168DA2771F4B399A007C6408 /* ViewController.swift in Sources */,
 				168DA2751F4B399A007C6408 /* AppDelegate.swift in Sources */,
+				168F44951F4B3BAE001BE216 /* MusixMatchAPIHandler.swift in Sources */,
 				168DA27D1F4B399A007C6408 /* FindMyLyrics.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +612,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		168F447E1F4B3B42001BE216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168F449A1F4B54E4001BE216 /* AppleMusicAPIHandler.swift in Sources */,
+				168F44851F4B3B42001BE216 /* ActionViewController.swift in Sources */,
+				168F449B1F4B54E4001BE216 /* MusixMatchAPIHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -486,6 +634,11 @@
 			isa = PBXTargetDependency;
 			target = 168DA2701F4B399A007C6408 /* FindMyLyrics */;
 			targetProxy = 168DA2941F4B399B007C6408 /* PBXContainerItemProxy */;
+		};
+		168F448B1F4B3B42001BE216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168F44811F4B3B42001BE216 /* FindMyLyricsActionExtension */;
+			targetProxy = 168F448A1F4B3B42001BE216 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -504,6 +657,14 @@
 				168DA2811F4B399A007C6408 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		168F44861F4B3B42001BE216 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168F44871F4B3B42001BE216 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -608,6 +769,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4D30736512B6282D3FE06A9 /* Pods-FindMyLyrics.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 476DPCGZ25;
 				INFOPLIST_FILE = FindMyLyrics/Info.plist;
@@ -622,6 +784,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8EB199E0FE3C8F5F2D0B2514 /* Pods-FindMyLyrics.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 476DPCGZ25;
 				INFOPLIST_FILE = FindMyLyrics/Info.plist;
@@ -694,6 +857,34 @@
 			};
 			name = Release;
 		};
+		168F448D1F4B3B42001BE216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B59547B09A106AF7F6DF2C8 /* Pods-FindMyLyricsActionExtension.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 476DPCGZ25;
+				INFOPLIST_FILE = FindMyLyricsActionExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedotov.igor.FindMyLyrics.FindMyLyricsActionExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		168F448E1F4B3B42001BE216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2B5ACD57269813BBD99A6A /* Pods-FindMyLyricsActionExtension.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 476DPCGZ25;
+				INFOPLIST_FILE = FindMyLyricsActionExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fedotov.igor.FindMyLyrics.FindMyLyricsActionExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -713,6 +904,7 @@
 				168DA29E1F4B399B007C6408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		168DA29F1F4B399B007C6408 /* Build configuration list for PBXNativeTarget "FindMyLyricsTests" */ = {
 			isa = XCConfigurationList;
@@ -721,12 +913,22 @@
 				168DA2A11F4B399B007C6408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		168DA2A21F4B399B007C6408 /* Build configuration list for PBXNativeTarget "FindMyLyricsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				168DA2A31F4B399B007C6408 /* Debug */,
 				168DA2A41F4B399B007C6408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168F448F1F4B3B42001BE216 /* Build configuration list for PBXNativeTarget "FindMyLyricsActionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168F448D1F4B3B42001BE216 /* Debug */,
+				168F448E1F4B3B42001BE216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
