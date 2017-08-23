@@ -12,6 +12,8 @@ import Alamofire
 
 class AppleMusicAPIHandler: NSObject {
   
+  private let parsingError = NSError(domain: "AppleMusicAPIHandler", code: 0, userInfo: ["Error description" : "parsing error"])
+
   private let developerToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6IjU3SkVZWUJNRkwifQ.eyJpc3MiOiI0NzZEUENHWjI1IiwiaWF0IjoxNTAzMzMwNzU5LCJleHAiOjE1MDMzNzM5NTl9.TI949xZ1tLFl0CPwh2a0fV_xTnAC9E5iroKlhJVI6sd9bObGVfU0fR5mGpfBfLa8sU8WmbuJsD1-ojMTZjwWFg"
   
   static let sharedInstance = AppleMusicAPIHandler()
@@ -30,8 +32,7 @@ class AppleMusicAPIHandler: NSObject {
       if let unwrappedResponse = response.value as? NSDictionary {
         completion (AppleMusicSongObject(dictionary: unwrappedResponse), nil)
       } else {
-        completion(nil, nil)
-        // TODO: error handler
+        completion(nil, self.parsingError)
       }
     }
     }

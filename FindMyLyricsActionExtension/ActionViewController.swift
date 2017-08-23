@@ -25,11 +25,17 @@ class ActionViewController: UIViewController {
           let storefront = url.pathComponents[1]
           if let songId = self.getQueryStringParameter(url: songUrlString, param: "i") {
             AppleMusicAPIHandler.sharedInstance.getSong(songId: songId, storefront: storefront, completion: { (musicObject, error) in
-              MusixMatchAPIHandler.sharedInstance.searchTopTrack(artist: (musicObject?.artist)!, songName: (musicObject?.name)!, completion: { (track, error) in
-                MusixMatchAPIHandler.sharedInstance.getLyrics(trackID: (track?.id)!, completion: { (lyrics, error2) in
-                  weakTextView?.text = lyrics?.text
+              if musicObject != nil {
+                MusixMatchAPIHandler.sharedInstance.searchTopTrack(artist: musicObject!.artist, songName: musicObject!.name, completion: { (trackList, error) in
+                  if let topTrack = trackList?.first {
+                    if topTrack.hasLyrics {
+                      MusixMatchAPIHandler.sharedInstance.getLyrics(trackID: topTrack.id, completion: { (lyrics, error2) in
+                        weakTextView?.text = lyrics?.text
+                      })
+                    }
+                  }
                 })
-              })
+              }
             })
           } else {
             weakTextView?.text = "An error occured"

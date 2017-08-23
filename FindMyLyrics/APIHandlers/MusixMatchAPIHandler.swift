@@ -11,13 +11,14 @@ import Alamofire
 
 class MusixMatchAPIHandler: NSObject {
   static let sharedInstance = MusixMatchAPIHandler()
+  private let parsingError = NSError(domain: "MusixMatchAPIHandler", code: 0, userInfo: ["Error description" : "parsing error"])
   private let apikey = "d44e3806c44be4342ef8a7623a4a5957"
   
   override init() {
     super.init()
   }
   
-  func searchTopTrack(artist: String, songName: String, completion:@escaping (_ track: MusixMatchTrackObject?,_ error: NSError?) -> Void) {
+  func searchTopTrack(artist: String, songName: String, completion:@escaping (_ tracks: [MusixMatchTrackObject]?,_ error: NSError?) -> Void) {
     let reqString = "http://api.musixmatch.com/ws/1.1/track.search"
     let parameters = ["q_artist" : artist,
                       "q_track" : songName,
@@ -25,16 +26,19 @@ class MusixMatchAPIHandler: NSObject {
     Alamofire.request(reqString, parameters: parameters).validate().responseJSON { (response) in
       if let responseDict = response.value as? NSDictionary {
         if let trackList = responseDict.value(forKeyPath: "message.body.track_list") as? NSArray {
-          if let topResult = trackList.firstObject as? NSDictionary {
-            completion (MusixMatchTrackObject(dictionary: topResult), nil)
+          var foundTrackObjects = [MusixMatchTrackObject]()
+          for case let trackDictionary as NSDictionary in trackList {
+            if let musicObject = MusixMatchTrackObject(dictionary: trackDictionary) {
+              foundTrackObjects.append(musicObject)
+            }
           }
+          completion(foundTrackObjects, nil)
         } else {
-          
+          completion(nil, self.parsingError)
         }
       } else {
-        
+        completion (nil, self.parsingError)
       }
-      
     }
   }
   
@@ -47,8 +51,10 @@ class MusixMatchAPIHandler: NSObject {
         if let lyricsDict = responseDict.value(forKeyPath: "message.body.lyrics") as? NSDictionary {
           completion (MusixMatchLyricsObject(dictionary: lyricsDict), nil)
         } else {
-          
+          completion (nil, self.parsingError)
         }
+      } else {
+        completion (nil, self.parsingError)
       }
     }
   }
